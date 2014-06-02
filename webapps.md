@@ -46,8 +46,10 @@ first off here's what a stack is (Stackoverflow Resource)[http://stackoverflow.c
 ---Windows STACK is called WAMPP or XAMPP. You usally heard this as a whole big installer. Well, they're not, they're one big giant package for installation of packages. WAMPP (Windows, Apache, MySQL, PHP, Perl), XAMPP (Cross Apache, Windows, MySQL, PHP, Perl). 
 ---I'd rather (as a developer, and a student) to use a pre-existing build of the packages thru the installers. But, take note that not all of the required libraries or installers are autoloaded on the `PATH`. And rather
 ---Use (XAMPP)[https://www.apachefriends.org/download.html]
-⋅⋅1. After installation you should
-⋅⋅⋅1. go to /xampp/php/bin and autoload them to your `$PATH` this could easily be googe-lable.
-⋅⋅⋅2. check your php configuration if its working type in `php -v` on your command line interface
----These is required since alot of development procedures on different frameworks are already being used by frameworks and developers. Alot of frameworks like `laravel`, `Fuel` and `Zend` uses different procedures on the CLI.
+After installation you should
+-go to `/xampp/php/bin` and autoload them to your `$PATH` this could easily be googe-lable.
+-check your php configuration if its working type in `php -v` on your command line interface
+  
+
+These is required since alot of development procedures on different frameworks are already being used by frameworks and developers. Alot of frameworks like `laravel`, `Fuel`, `Zend` and `Symfony` uses different procedures on the CLI.
 
